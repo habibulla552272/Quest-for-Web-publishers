@@ -1,0 +1,345 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* section 1 design  */
+.Section-1 {
+  background-image: url(Image/Bacground-Image-1.png);
+  background-size: cover;
+  color: white;
+  height: 650px;
+}
+.section1-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  position: sticky;
+  top: 20px;
+}
+
+.section1-div1 {
+  width: 15%;
+}
+.section1-div2 {
+  width: 55%;
+}
+.section1-div2 ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 1rem;
+}
+.section1-div3 {
+  width: 25%;
+  display: flex;
+  justify-content: end;
+}
+
+.Section-1-bottom {
+  margin: 20% 0;
+}
+.Section-1-bottom h2 {
+  font-size: 3rem;
+  padding: 10px 0;
+}
+.Section-1-bottom h4 {
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+.Section-1-bottom p {
+  font-size: 0.8rem;
+}
+/* section 1 design  end */
+
+/* section 2 design  */
+.Section-2 {
+  background-color: rgba(36, 36, 36, 1);
+  color: whitesmoke;
+  padding: 30px 0;
+}
+.Section-2-top {
+  padding: 20px 0;
+}
+.Section-2-top h3 {
+  padding-top: 10px;
+  font-family: monospace;
+}
+.Section-2-top span {
+  color: rgba(245, 130, 32, 1);
+}
+.Section-2-bottom {
+  display: flex;
+  width: fit-content;
+  justify-content: space-between;
+}
+.Section-2-bottom p {
+  padding: 5px 5px;
+  font-size: 15px;
+}
+
+.Section-2-div-bottom1 {
+  width: 30%;
+  padding-top: 70px;
+}
+.Section-2-div-bottom1 h2 {
+  color: rgba(245, 130, 32, 1);
+}
+.Section-2-div-bottom1-Image {
+  width: 100%;
+}
+.Section-1-bottom1-div {
+  background-color: rgb(157, 156, 156);
+  width: 100%;
+  height: 2px;
+  margin: 10px 5px;
+}
+.Section-1-bottom1-div div{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(245, 130, 32, 1);
+}
+
+.Section-2-div-bottom2 {
+  width: 30%;
+  padding-top: 35px;
+}
+.Section-2-div-bottom2-Image {
+  width: 100%;
+}
+.Section-2-div-bottom3 {
+  width: 30%;
+}
+.Section-2-div-bottom3-Image {
+  width: 100%;
+}
+/* section 2 design end */
+
+
+/* section 3 design start */
+.section-3{
+    background-image: url(Image/BackgroundImage3.png);
+    background-size: cover;
+    height: 750px;
+     
+    color: whitesmoke;
+}
+.section-3-div-top h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding-top: 20%;
+}
+.section-3-div-bottom{
+    padding-top: 16%;
+    width: 65%;
+}
+.section-3-div-bottom p{
+    padding: 3px 0;
+    font-size: 0.8rem;
+}
+.Section-3-bottom1-div {
+  background-color: rgb(157, 156, 156);
+  width: 90%;
+  height: 2px;
+  margin: 10px 5px;
+}
+.Section-3-bottom1-div div{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.954);
+}
+
+.section-3-div-bottom button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 10px;
+}
+/* section 3 design end */
+
+
+  /* section 4 design  */
+
+
+.section-4{
+  background-color: rgba(36, 36, 36, 1);
+  color: whitesmoke;
+  padding: 30px 0;
+}
+.Section-4-top {
+  padding: 20px 0;
+}
+.Section-4-top h3 {
+  padding-top: 10px;
+  font-family: monospace;
+}
+.Section-4-top span {
+  color: rgba(245, 130, 32, 1);
+}
+.Section-4-bottom {
+  display: flex;
+  width: fit-content;
+  justify-content: space-between;
+}
+.Section-4-bottom p {
+  padding: 5px 5px;
+  font-size: 15px;
+}
+
+.Section-4-div-bottom1 {
+  width: 30%;
+ 
+}
+.Section-4-div-bottom1 h2 {
+  color: rgba(245, 130, 32, 1);
+}
+.Section-4-div-bottom1-Image {
+  width: 100%;
+}
+
+.Section-4-div-bottom2 {
+  width: 30%;
+  padding-top: 50px;
+}
+.Section-4-div-bottom2-Image {
+  width: 100%;
+}
+.Section-4-div-bottom3 {
+  width: 30%;
+   padding-top: 60px;
+}
+.Section-4-div-bottom3-Image {
+  width: 100%;
+}
+
+  /* section 4 design  */
+
+
+@media only screen and (max-width: 600px) {
+  /* section 1 design  */
+
+  .Section-1 {
+    background-image: url(Image/BackgroundImage2.png);
+    background-size: cover;
+    color: white;
+    height: 860px;
+  }
+  .section1-div2 {
+    width: 50%;
+    position: relative;
+    left: -50px;
+    top: 40px;
+  }
+  .section1-div2 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1rem;
+  }
+
+  .Section-1-bottom {
+    margin: 55% 0;
+  }
+  /* section 1 design  end*/
+
+  /* section 2 design  */
+  .Section-2-bottom {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .Section-2-div-bottom1 {
+    width: 90%;
+    padding-top: 10px;
+    margin: 10px auto;
+  }
+  .Section-2-div-bottom2 {
+    width: 90%;
+    padding-top: 10px;
+    margin: 10px auto;
+  }
+  .Section-2-div-bottom3 {
+    width: 90%;
+    margin: 10px auto;
+  }
+  /* section 2 design  end*/
+  /* section 3 design start */
+.section-3{
+    background-image: url(Image/BackgroundImage4.png);
+    background-size: cover;
+    height: 750px;
+     
+    color: whitesmoke;
+}
+.section-3-div-top h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding-top: 30%;
+}
+.section-3-div-bottom{
+    padding: 0 10px;
+    padding-top: 48%;
+    width: 95%;
+    
+}
+.section-3-div-bottom p{
+    padding: 3px 0;
+    font-size: 0.8rem;
+}
+.Section-3-bottom1-div {
+  background-color: rgb(157, 156, 156);
+  width: 90%;
+  height: 2px;
+  margin: 10px 5px;
+}
+.Section-3-bottom1-div div{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.954);
+}
+
+.section-3-div-bottom button{
+    background-color: transparent;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 5px 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+/* section 3 design end */
+
+.Section-4-bottom {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .Section-4-div-bottom1 {
+    width: 90%;
+    padding-top: 10px;
+    margin: 10px auto;
+  }
+  .Section-4-div-bottom2 {
+    width: 90%;
+    padding-top: 10px;
+    margin: 10px auto;
+  }
+  .Section-4-div-bottom3 {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
